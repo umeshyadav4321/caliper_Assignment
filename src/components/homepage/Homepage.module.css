@@ -1,0 +1,11 @@
+.aboutcontainer{
+    display: flex;
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    font-size: 20px;
+}
+.avatar{
+    width: 320px;
+    height: 320px;
+}
