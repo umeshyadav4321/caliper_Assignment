@@ -11,8 +11,8 @@ const Navbar = () => {
         </div>
       
         <div className={styles.containertwo}>
-        <Link to="/Login">     <h5 className={styles.divspace}>Login</h5></Link>
-            <Link to="/Products"> <h5 className={styles.divspace}>Shop</h5></Link>
+        <Link to="/Login">     <h3 className={styles.divspace}>Login</h3></Link>
+            <Link to="/Products"> <h3 className={styles.divspace}>Shop</h3></Link>
            
        
         </div>

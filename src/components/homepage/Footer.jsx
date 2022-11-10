@@ -72,11 +72,6 @@ const Footer = () => {
     </Stack>
  
     
-    <Stack direction="column">
-      <hr className={styles.hrtag} ></hr>
-    <Text style={{textAlign:"center", marginTop:"1rem"}}>© All rights reserved.</Text>
-
-  </Stack>
   </Stack>
    
    

@@ -25,7 +25,7 @@ const Homepage = () => {
 <SimpleImageSlider
         showNavs="true"
         width={1520}
-        height={400}
+        height={500}
         images={images}
       />     
       <About/>

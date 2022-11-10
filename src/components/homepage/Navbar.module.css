@@ -1,20 +1,27 @@
 .maincontainer{
-    border: 1px solid red;
     height: 70px;
     display: flex;
+    background-color: #7900f2;
+    color: white;
 }
 .containerone{
     width: 60%;
     text-align: left;
     margin-left: 5px;
+    padding-left: 15px;
 }
 .containertwo{
     width: 40%;
     display: flex;
     justify-content:flex-end;
     margin-right: 50px;
+   
 }
 .divspace{
     margin-left: 50px;
     text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+    color: white;
 }
+    

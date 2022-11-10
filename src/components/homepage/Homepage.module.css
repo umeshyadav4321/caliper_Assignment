@@ -1,7 +1,6 @@
 .aboutcontainer{
     display: flex;
-    width: 80%;
-    border: 1px solid red;
+    width: 90%;
     margin: auto;
     font-size: 20px;
 }
