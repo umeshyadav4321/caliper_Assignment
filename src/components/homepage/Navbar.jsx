@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,8 +11,10 @@ const Navbar = () => {
         </div>
       
         <div className={styles.containertwo}>
-            <h5 className={styles.divspace}>Shop</h5>
-            <h5 className={styles.divspace}>Login</h5>
+        <Link to="/Login">     <h5 className={styles.divspace}>Login</h5></Link>
+            <Link to="/Products"> <h5 className={styles.divspace}>Shop</h5></Link>
+           
+       
         </div>
 
     </div>
