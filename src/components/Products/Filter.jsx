@@ -42,16 +42,16 @@ const Filter = () => {
       <div>Category</div>
       <div data-testid="filter-category">
         <div>
-          <input type="checkbox" value="Analog" defaultChecked={category.includes("Analog")} onChange={handleCategoryChange} />
-          <label>Analog</label>
+          <input type="checkbox" value="Proteinrich" defaultChecked={category.includes("Proteinrich")} onChange={handleCategoryChange} />
+          <label>Proteinrich</label>
         </div>
         <div>
-          <input type="checkbox" value="Digital" defaultChecked={category.includes("Digital")} onChange={handleCategoryChange} />
-          <label>Digital</label>
+          <input type="checkbox" value="Vegetables" defaultChecked={category.includes("Vegetables")} onChange={handleCategoryChange} />
+          <label>Vegetables</label>
         </div>
         <div>
-          <input type="checkbox" value="Chronograph" defaultChecked={category.includes("Chronograph")} onChange={handleCategoryChange} />
-          <label>Chronograph</label>
+          <input type="checkbox" value="NaturalGrown" defaultChecked={category.includes("Naturalgrown")} onChange={handleCategoryChange} />
+          <label>Naturalgrown</label>
         </div>
       </div>
       <div>

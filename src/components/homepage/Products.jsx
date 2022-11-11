@@ -7,53 +7,74 @@ const Products = () => {
     <>
     
     <div>
-        <h1>Our Populr listings</h1>
+        <h1>Our Populer listings</h1>
 
         </div>
     <div className={styles.maincontainer}>
         
  
         <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="Spinch"
       price="300"
       />
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="Potato"
       price="300"
       />
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="Watermelom"
       price="300"
       />
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="Grapes"
       price="300"
       />
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="Reddish"
       price="300"
       />
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="carrot"
       price="300"
       />
 
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
+      img="https://picsum.photos/160/160"
+      name="Beans"
+      price="300"
+      />
+      <Productcard
+      img="https://picsum.photos/160/160"
       name="spinch"
       price="300"
       />
       <Productcard
-      img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtun6qqPMDb0z7FphAigDy_8u45OB4E9DQ7Qsp6w8KQ&s"
-      name="spinch"
+      img="https://picsum.photos/160/160"
+      name="Qualiflower"
       price="300"
       />
+      <Productcard
+      img="https://picsum.photos/160/160"
+      name="Alovera"
+      price="300"
+      />
+      <Productcard
+      img="https://picsum.photos/160/160"
+      name="Tomato"
+      price="300"
+      />
+      <Productcard
+      img="https://picsum.photos/160/160"
+      name="Tea"
+      price="300"
+      />
+
     </div>
     </>
   )

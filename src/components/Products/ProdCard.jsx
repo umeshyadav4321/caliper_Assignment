@@ -9,7 +9,7 @@ const ProdCard = ({item}) => {
       <div>
         <div >{item.name}</div>
         <div >{item.category}</div>
-        <div>{item.price}</div>
+        <div>₹{item.price}</div>
       </div>
     </div>
   );

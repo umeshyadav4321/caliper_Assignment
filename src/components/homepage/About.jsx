@@ -13,7 +13,7 @@ const About = () => {
              iusto repudiandae obcaecati temporibus! Quibusdam, magnam earum? Veniam maxime ipsam consectetur 
              libero porro esse vel.</div>
         <div>
-            <img className={styles.avatar} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvt4yWLvj5ofcvt-mRi1qgfVt7X8YHDa2KV1qnaGRqtA&s" alt="" />
+            <img className={styles.avatar} src="https://picsum.photos/200/300" alt="" />
         </div>
     </div>
   )

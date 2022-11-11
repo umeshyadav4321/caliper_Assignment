@@ -6,7 +6,7 @@ const login=(payload)=>(dispatch)=>{
     return axios({
         method:"post",
         url:"/api/login",
-        baseURL:"https://reqres.in/",
+        baseURL:"https://reqres.in",
         data:payload
     }).then(r=>dispatch({type:types.LOGIN_SUCCESS,payload:r.data.token}))
     .catch((e)=>dispatch({type:types.LOGIN_FAILURE}))

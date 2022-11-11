@@ -7,8 +7,8 @@ const Productcard = (props) => {
     <div className={styles.maincontainer} >
         <img src={props.img} alt="" />
         <h3>{props.name}</h3>
-        <h3> ₹:-{props.price}</h3>
-        <button>Add to cart</button>
+        <h3> ₹{props.price}</h3>
+        <button className={styles.button}>Add to cart</button>
 
 
 

@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import {  useLocation, useNavigate } from "react-router-dom";
 import { LOGIN_SUCCESS } from "../../Redux/AuthReducer/actionTypes";
 import {login} from "../../Redux/AuthReducer/action"    
+import styles from "../Login/Login.module.css"
 
 const Login = () => {
   const navigate=useNavigate();
@@ -17,7 +18,7 @@ const Login = () => {
       dispatch(login({email,password})).then((r)=>{
         if(r.type===LOGIN_SUCCESS){
           // console.log(token);
-          navigate(comingFrom,{replace:true});
+          navigate("/Products");
 
         }
 
@@ -26,24 +27,25 @@ const Login = () => {
 
   }
   return (
-    <div>
-      <h2>LOGIN</h2>
+    <div className={styles.maincontainer}>
+      <h1>Login</h1>
       <form>
         <div>
-          <label>User Email</label>
+          <label className={styles.label}>User Email</label>
           <br />
-          <input data-testid="login-email" type="email" placeholder='email' value={email} onChange={(e)=>setemail(e.target.value)} />
+          <input className={styles.input}  type="email" placeholder='eve.holt@reqres.in' value={email} onChange={(e)=>setemail(e.target.value)} />
         </div>
         <div>
-          <label>User Password</label>
+          <label className={styles.label}>User Password</label>
           <br />
-          <input data-testid="login-password" type="password" placeholder='password' value={password} onChange={(e)=>setpassword(e.target.value)} />
+          <input className={styles.input} type="password" placeholder='1234' value={password} onChange={(e)=>setpassword(e.target.value)} />
         </div>
-        <button onClick={handleSubmit}  type="submit" data-testid="login-submit">
-          Loading
+        <button className={styles.button} onClick={handleSubmit}  type="submit" data-testid="login-submit">
+          Login
         </button>
       </form>
     </div>
+    
   );
 };
 

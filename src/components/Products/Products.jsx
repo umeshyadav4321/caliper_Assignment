@@ -25,10 +25,18 @@ const Products = () => {
     }
   },[location.search])
   return (
+    <>
+  
+    <div>
+    <h1>Products</h1>
+
+    </div>
     <div style={{display:"flex",gap:"20px"}}>
     <div style={{width:"15%",border:"1px solid grey"}}>
     <Filter />
     </div>
+    
+   
   
     <div style={{display:"grid",width:"85%",gridTemplateColumns:"repeat(3,1fr)",gap:"30px",padding:"10px",textAlign:"center"}}>
       {/* Map through the watch list here using WatchCard Component */}
@@ -43,6 +51,7 @@ const Products = () => {
       ))}
     </div>
   </div>
+  </>
   )
 }
 
