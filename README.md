@@ -1,4 +1,4 @@
-# Acmefreah website
+# Acmefresh Website
 
 ## Functionalities achieved
 <b>1.Simple homepage with slider Navbar and footer.</b>
@@ -10,7 +10,7 @@
 <b>4.Redux as central state management and json server to store products data.</b>
 
 
-## Deeployed Link
+## Deployed Link
 Link:-https://gleeful-praline-501425.netlify.app/
 
 
